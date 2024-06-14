@@ -6,6 +6,7 @@ public class Reactor : MonoBehaviour
 {
     public Vector3 offset;
     public Transform attachedObject;
+    public GameObject finishPoint;
     private bool canAttach = true;
     public void AttatchObject(Transform other)
     {
@@ -13,13 +14,14 @@ public class Reactor : MonoBehaviour
         other.SetParent(transform);
         other.localPosition = Vector3.zero + offset;
         attachedObject = other;
+        finishPoint.SetActive(true);
     }
 
     public async void DetachObject()
     {
         attachedObject.parent = null;
         attachedObject = null;
-        print("detach");
+        finishPoint.SetActive(false);
         canAttach = false;
         await PlayerControls.WaitAsync(1);
         canAttach = true;

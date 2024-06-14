@@ -26,13 +26,14 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        Time.timeScale = 1;
         gameOver = false;
         LevelInitialize();
     }
 
     void LevelInitialize()
     {
-        currentLevel = PlayerPrefs.GetInt("Selected", 0);
+        currentLevel = 0; // PlayerPrefs.GetInt("Selected", 0);
         if(currentLevel <= 20)
         {
             // world 1
@@ -74,6 +75,7 @@ public class GameManager : MonoBehaviour
 
     public static void PRINT(string t)
     {
+        if (gameOver) return;
         GameManager gm = FindObjectOfType<GameManager>();
         GameObject obj = Instantiate(gm.msg);
         obj.GetComponentInChildren<Text>().text = t;
@@ -100,6 +102,14 @@ public class GameManager : MonoBehaviour
             restartLevelButton.SetActive(true);
         }
         gameTime.text = TimeFormat(timer);
+    }
+
+    public void Pause(bool pause)
+    {
+        if (pause)
+            Time.timeScale = 0;
+        else
+            Time.timeScale = 1;
     }
 
     string TimeFormat(float value)
