@@ -34,4 +34,12 @@ public class FollowPath : MonoBehaviour
     {
         StopCoroutine(loop);
     }
+
+    private void OnDrawGizmosSelected()
+    {
+        for (int i = 0; i < paths.Length; i++)
+        {
+            Gizmos.DrawLine(paths[i].position, paths[(i + 1) % paths.Length].position);
+        }
+    }
 }

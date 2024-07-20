@@ -848,9 +848,17 @@
       <Project>{9099FC94-1E58-AE3C-B2EA-14DF45E94CA1}</Project>
       <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.csproj">
+      <Project>{5C81F87B-8E02-1E44-7CC3-BA977C6D1C7F}</Project>
+      <Name>Unity.AI.Navigation</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.Editor.csproj">
       <Project>{A8E57E95-B08C-DE16-B2D6-44B2DC0ECF7A}</Project>
       <Name>Unity.Mathematics.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Editor.csproj">
+      <Project>{FE01DCF3-D3AB-D193-5B52-74BBA835199D}</Project>
+      <Name>Unity.AI.Navigation.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Common.Editor.csproj">
       <Project>{423B7DC6-F13B-74B4-AE67-164A7ADF1F77}</Project>

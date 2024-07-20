@@ -250,9 +250,9 @@
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.5\Editor\Manipulators\Utils\EditModeUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.5\Editor\Manipulators\TimelineClipGroup.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.5\Editor\inspectors\TimelineAssetInspector.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.6.5\Editor\Utilities\PropertyCollector.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.5\Editor\Activation\ActivationTrackEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.5\Editor\Manipulators\Sequence\EaseClip.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.6.5\Editor\Utilities\PropertyCollector.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.5\Editor\Window\ViewModel\TimelineWindowViewPrefs.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.5\Editor\Activation\ActivationTrackInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.5\Editor\Manipulators\Utils\ManipulatorsUtils.cs" />
