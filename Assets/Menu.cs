@@ -9,13 +9,12 @@ public class Menu : MonoBehaviour
     // Start is called before the first frame update
     public void setIndex(int index)
     {
-        levelIndex = index;
+        PlayerPrefs.SetInt("Selected", index);
     }
 
     public void Play()
     {
-        if(levelIndex != 0)
-            SceneManager.LoadScene(levelIndex);
+        SceneManager.LoadScene(1);
     }
 
     public void Exit()

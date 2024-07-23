@@ -92,6 +92,7 @@
 -define:NET_STANDARD_2_1
 -define:NETSTANDARD
 -define:NETSTANDARD2_1
+-define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -304,6 +305,7 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.2D.PixelPerfect.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.2D.SpriteShape.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.2D.Tilemap.Extras.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/Unity.AI.Navigation.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Burst.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.InternalAPIEngineBridge.001.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Mathematics.ref.dll"
@@ -344,6 +346,7 @@
 "Assets/Menu.cs"
 "Assets/PlayerControls.cs"
 "Assets/Reactor.cs"
+"Assets/SceneLoader.cs"
 "Assets/Scripts/CameraMovement.cs"
 "Assets/Teleporter.cs"
 "Assets/TriggerBomb.cs"
@@ -356,6 +359,7 @@
 "Assets/UnityTechnologies/EffectExamples/Shared/Scripts/ParticleCollision.cs"
 "Assets/UnityTechnologies/EffectExamples/Shared/Scripts/ParticleExamples.cs"
 "Assets/UnityTechnologies/EffectExamples/Shared/Scripts/ParticleMenu.cs"
+"Assets/UVAdjustment.cs"
 -langversion:9.0
 
 /deterministic

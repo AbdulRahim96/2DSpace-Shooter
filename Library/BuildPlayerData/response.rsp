@@ -8,6 +8,7 @@
 -a="C:\Unity Projects\2DSpace-Shooter\Library\PlayerScriptAssemblies\Unity.2D.IK.Runtime.dll"
 -a="C:\Unity Projects\2DSpace-Shooter\Library\PlayerScriptAssemblies\Cinemachine.dll"
 -a="C:\Unity Projects\2DSpace-Shooter\Library\PlayerScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll"
+-a="C:\Unity Projects\2DSpace-Shooter\Library\PlayerScriptAssemblies\Unity.AI.Navigation.dll"
 -a="C:\Unity Projects\2DSpace-Shooter\Library\PlayerScriptAssemblies\Unity.2D.Tilemap.Extras.dll"
 -a="C:\Unity Projects\2DSpace-Shooter\Library\PlayerScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll"
 -a="C:\Unity Projects\2DSpace-Shooter\Library\PlayerScriptAssemblies\UnityEngine.TestRunner.dll"

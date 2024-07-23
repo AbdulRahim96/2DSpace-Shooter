@@ -33,18 +33,21 @@ public class GameManager : MonoBehaviour
 
     void LevelInitialize()
     {
-        currentLevel = 0; // PlayerPrefs.GetInt("Selected", 0);
-        if(currentLevel <= 20)
+        currentLevel = PlayerPrefs.GetInt("Selected", 0);
+        if(currentLevel < 20)
         {
             // world 1
+            world1.init(currentLevel);
         }
-        else if(currentLevel <= 40)
+        else if(currentLevel < 40)
         {
             // world 2
+            world2.init(currentLevel - 20);
         }
         else
         {
             // world 3
+            world3.init(currentLevel - 40);
         }
 
         DestroyUnActiveLevels();
