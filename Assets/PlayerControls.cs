@@ -61,8 +61,8 @@ public class PlayerControls : MonoBehaviour
         CanonFilling();
         RotatePlayerTowardsMouse();
 
-        //if (Input.GetKeyDown(KeyCode.F) || Input.GetMouseButtonDown(0))
-        //    ShootBullet();
+        if (Input.GetKeyDown(KeyCode.F) || Input.GetMouseButtonDown(0))
+            ShootBullet();
 
         if (canShockwave)
         {
